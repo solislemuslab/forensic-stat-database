@@ -1,0 +1,47 @@
+.navbar {
+  position: relative;
+  top: 0;
+  width: 100%;
+  align-content: left;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+  margin-bottom: -8px;
+
+  .navbar-brand {
+    padding: 0;
+    transition: transform 300ms;
+
+    &:hover,
+    &:active,
+    &:focus {
+      transform: scale(1.05);
+    }
+  }
+
+  .navbar-content {
+    text-align: right;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+    .navbar-content-item {
+      padding: 0 10px;
+      width: min-content;
+      transition: transform 300ms;
+
+      &:hover,
+      &:active,
+      &:focus {
+        transform: scale(1.05);
+      }
+
+      .navbar-content-link {
+        letter-spacing: 1.5px;
+      }
+    }
+  }
+}

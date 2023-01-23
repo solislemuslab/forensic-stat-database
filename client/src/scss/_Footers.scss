@@ -1,0 +1,12 @@
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column, column, row;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.footer-container {
+  margin-top: auto;
+}
