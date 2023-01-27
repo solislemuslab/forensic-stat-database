@@ -7,9 +7,10 @@ export default class FAQ extends Component {
 				<h1>FAQ</h1>
 				<h4>What is the purpose of the database?</h4>
 				<p>
-					The purpose of the database is to compile a list of
-					statisticians and data scientists who are willing to aid in the understanding and analysis of 
-					data in legal settings.
+					The database's purpose is to compile a list of
+					statisticians and data scienticts that are interested in aiding forensic
+					scientists or attorneys in the understanding of statistical
+					concepts in forensic science.
 				</p>
 				<h4>
 					I have filled out my profile, but I still do not appear in
@@ -18,8 +19,9 @@ export default class FAQ extends Component {
 				<p>
 					It can take up to a week for us to approve profiles. We
 					appreciate your patience. Also, make sure that you have
-					included your <strong>name</strong>, <strong>email</strong>, <strong>institution</strong>,
-          			and informative <strong>keywords</strong>, as profiles without these 4 items
+					included your <strong>name</strong>, <strong>email</strong>,{" "}
+					<strong>institution</strong>, and informative{" "}
+					<strong>keywords</strong>, as profiles without these 4 items
 					will not be approved. Email addresses are protected from
 					mining, but you may also write it as
 					name[AT]wherever[DOT]edu. Make sure that your keywords are
@@ -33,9 +35,7 @@ export default class FAQ extends Component {
 					when filling out the profile for the first time, it will
 					take us about one week to approve any changes.
 				</p>
-				<h4>
-					Why do profiles have to be approved?
-				</h4>
+				<h4>Why do profiles have to be approved?</h4>
 				<p>
 					The approval process guarantee that the database is not used
 					maliciously as a place to include hateful or discriminatory
