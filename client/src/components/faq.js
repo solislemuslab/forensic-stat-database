@@ -8,7 +8,7 @@ export default class FAQ extends Component {
 				<h4>What is the purpose of the database?</h4>
 				<p>
 					The database's purpose is to compile a list of
-					statisticians and data scienticts that are interested in aiding forensic
+					statisticians and data scientists that are interested in aiding forensic
 					scientists or attorneys in the understanding of statistical
 					concepts in forensic science.
 				</p>
